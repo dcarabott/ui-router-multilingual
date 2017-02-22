@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, Input} from '@angular/core';
 import {NameListService} from "../name-list/name-list.service";
 
 /**
@@ -11,6 +11,9 @@ import {NameListService} from "../name-list/name-list.service";
   styleUrls: ['home.component.css'],
 })
 export class HomeComponent implements OnInit {
+
+  @Input() transitionParams;
+
 
   newName: string = '';
   errorMessage: string;

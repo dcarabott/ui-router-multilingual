@@ -388,6 +388,7 @@ export class SeedConfig {
         'node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic-testing.umd.js',
       'ui-router-core': 'node_modules/ui-router-core/lib/index',
       'ui-router-ng2': 'node_modules/ui-router-ng2/_bundles/ui-router-ng2',
+      'ui-router-sticky-states': 'node_modules/ui-router-sticky-states/lib/stickyStates',
       'lodash': 'node_modules/lodash/lodash.js',
       'app/*': '/app/*',
       // For test config
